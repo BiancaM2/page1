@@ -13,23 +13,23 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
    
-    <nav class="menu-lateral">
+    <nav class="menu-lateral" id="menu-lateral">
 
-        <ul>
+        <ul class="ulEstilo">
             <li class="item-menu">
-                <a href="a">
+                <a href="#" onclick="showPage('home')">
                     <span class="icon"><i class="bi bi-house-door"></i></span>
                     <span class="txt-link">Home</span>
                 </a>
             </li>
             <li class="item-menu">
-                <a href="quemsomos.html">
+                <a href="#" onclick="showPage('sobre')">
                     <span class="icon"><i class="bi bi-person-circle"></i></span>
-                    <span class="txt-link">Quem Somos</span>
+                    <span class="txt-link">Sobre</span>
                 </a>
             </li>
             <li class="item-menu">
-                <a href="a">
+                <a href="#" onclick="showPage('contato')">
                     <span class="icon"><i class="bi bi-chat"></i></span>
                     <span class="txt-link">Contato</span>
                 </a>
@@ -37,13 +37,15 @@
         </ul>
     </nav>
 
-    <main>
-        <h1>Home</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quia et. Iusto optio eum cumque aliquid expedita, nemo dignissimos distinctio sunt, maxime quasi quo labore quos odit ut, est recusandae.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui aperiam, delectus eius vitae natus quidem quasi vero consequatur ipsum velit, voluptatibus deserunt non ipsam rerum labore impedit inventore officia veniam?</p>
-    </main>
+    <div id="conteudo">
+        <h1>Página Inicial</h1>
+        <p>Bem-vindo à minha SPA!</p>
+    </div>
+    <script src="script.js"></script>
 
 
 
   </body>
 </html>
+
+<script></script>
